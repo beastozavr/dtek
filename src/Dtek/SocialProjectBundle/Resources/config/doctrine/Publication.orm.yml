@@ -1,0 +1,16 @@
+Dtek\SocialProjectBundle\Entity\Publication:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        title:
+            type: text
+        content:
+            type: text
+        date:
+            type: text
+    lifecycleCallbacks: {  }

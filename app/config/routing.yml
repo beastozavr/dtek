@@ -1,0 +1,4 @@
+social_project:
+    resource: "@SocialProjectBundle/Resources/config/routing.yml"
+    prefix:   /
+

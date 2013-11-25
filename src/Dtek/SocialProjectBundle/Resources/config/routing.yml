@@ -1,0 +1,11 @@
+social_project_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SocialProjectBundle:Default:index }
+
+SocialProjectBundle_publication:
+  resource: "@SocialProjectBundle/Resources/config/routing/publication.yml"
+  prefix: /publication
+  
+SocialProjectBundle_news:
+  resource: "@SocialProjectBundle/Resources/config/routing/news.yml"
+  prefix: /news
